@@ -23,9 +23,18 @@ html {
       font-family: Arial, Helvetica, sans-serif;
       font-style: normal;
   }
+  .card {
+      display: flex;
+      align-items: flex-start;
+
+  }
   .card__description {
       line-height: 22px;
       font-size: 16px;
+  }
+  .card__foto { 
+padding-right: 32px;
+
   }
   .card__name {
       font-size: 36px;
@@ -43,6 +52,6 @@ html {
       margin: 0px;
   }
 .special{
-    color: #ED6D05
+    color: #ED6D05;
     font-weight: normal
 }
